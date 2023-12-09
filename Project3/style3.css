@@ -1,0 +1,63 @@
+form {
+    border: 2px solid black;
+    box-shadow: 10px 10px 5px violet;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 170px;
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    text-align: center;
+    animation-name: example;
+    animation-duration: 4s;
+}
+@keyframes example{
+    0% {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        box-shadow: 10px 10px 5px lightblue;
+    }
+    15% {
+        margin-left: auto;
+        margin-right: 0px;
+        margin-top: 0px;
+        box-shadow: 10px 10px 5px lightcoral;
+    }
+    25% {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 20%;
+        box-shadow: 10px 10px 5px red;
+    }
+    35% {
+        margin-top: 20%;
+        margin-right: 0px;
+        margin-left: 71%;
+        box-shadow: 10px 10px 5px blue;
+    }
+    50% {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        box-shadow: 10px 10px 5px lawngreen;
+    }
+    100% {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 170px;
+        box-shadow: 10px 10px 5px violet;
+    }
+}
+@media screen and (max-height: 480px) {
+    form {
+        margin-top: 0px;
+    }
+}
+textarea{
+    border: none;
+    height: 355px;
+    width: 405px;
+    border: none;
+    outline: none;
+}
